@@ -76,10 +76,6 @@ export const IconList: IconItem[] = [
         icon: 'fluent-emoji:confounded-face',
         to: '/'
     },
-    {
-        name: 'Sweet Toothed',
-        icon: 'fluent-emoji:face-savoring-food',
-        to: '/'
-    },
+    
 ]
 export default IconList;

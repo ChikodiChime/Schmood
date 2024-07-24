@@ -1,20 +1,14 @@
 import React from 'react'
 import Image from 'next/image';
 import {FaArrowRight} from 'react-icons/fa'
+import { Toaster } from "react-hot-toast";
 
 
 const Home = () => {
   return (
     <section className="py-10 h-screen">
       <div className="container">
-        {/* <nav>
-        <Image
-        src="/logo.svg"
-        alt="schmood logo"
-        width={300}  // Specify width
-        height={300} // Specify height
-      />
-        </nav> */}
+       
         <div className="flex items-center w-full h-full justify-center ">
           <div className="left">
             <Image

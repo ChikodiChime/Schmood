@@ -29,9 +29,9 @@ const Moods: React.FC = () => {
           <a
             href={item.to}
             key={index}
-            className='flex cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-[#E3694C] p-5 transition-colors hover:bg-[#E3694C]'
+            className='icon-wrapper flex cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-[#E3694C] p-5 transition-all hover:bg-[#E3694C] '
           >
-            <Icon width='72' height='72' icon={item.icon} />
+            <Icon width='72' height='72' icon={item.icon} className='icon' />
             <span>{item.name}</span>
           </a>
         ))}

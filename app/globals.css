@@ -14,4 +14,12 @@
     color: #E3694C;
     font-family: "Salsa", cursive;
   }
+  .icon{
+    transition: all .5s ease-in-out;
+
+  }
+  .icon-wrapper:hover .icon {
+    transform: scale(1.2, 1.2);
+    transition: all .5s ease-in-out;
+  }
   
